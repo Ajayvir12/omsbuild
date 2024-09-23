@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-23T18:54:50 IST" name="Default suite" finished-at="2024-09-23T18:55:45 IST" duration-ms="55191">
+    <groups>
+    </groups>
+    <test started-at="2024-09-23T18:54:50 IST" name="Default test" finished-at="2024-09-23T18:55:45 IST" duration-ms="55191">
+      <class name="testCases.allCruds">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.allCruds@76b1e9b8]" started-at="2024-09-23T18:54:50 IST" name="setUp" finished-at="2024-09-23T18:54:52 IST" duration-ms="1514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testlogin()[pri:1, instance:testCases.allCruds@76b1e9b8]" started-at="2024-09-23T18:54:52 IST" name="testlogin" finished-at="2024-09-23T18:55:15 IST" duration-ms="22840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method signature="addCategory()[pri:2, instance:testCases.allCruds@76b1e9b8]" started-at="2024-09-23T18:55:15 IST" name="addCategory" finished-at="2024-09-23T18:55:43 IST" duration-ms="28492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategory -->
+        <test-method signature="updateCategory()[pri:0, instance:testCases.allCruds@76b1e9b8]" started-at="2024-09-23T18:55:43 IST" name="updateCategory" finished-at="2024-09-23T18:55:45 IST" depends-on-methods="testCases.allCruds.addCategory" duration-ms="2289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCategory -->
+      </class> <!-- testCases.allCruds -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
